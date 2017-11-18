@@ -487,11 +487,11 @@
         }; // Go Top
 
          var removePreloader = function() { 
-            $(window).load(function() { 
+            // $(window).load(function() { 
                 setTimeout(function() {
                     $('.preloader').hide(); }, 500           
                 ); 
-            });  
+            // });  
         }; //remove Preloader
 
         // Dom Ready
