@@ -55,6 +55,9 @@ if ( !$error ) {
 
 	}
 
+	echo 'Success';
+	exit(0);
+
 }
 
 ?>
