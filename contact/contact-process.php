@@ -18,9 +18,11 @@ if ( !$error ) {
 	$name = stripslashes($_POST['name']);
 	$email = trim($_POST['email']);
 	$subject = stripslashes($_POST['subject']);
-	$url = stripslashes($_POST['url']);		
+	$url = "";		
+	// $url = stripslashes($_POST['url']);		
 	$message = stripslashes($_POST['message']);
-	$message = stripslashes($_POST['message-contact']);
+	// $messagecontact = stripslashes($_POST['message-contact']);
+	$messagecontact = "";
 	
 	$e_subject = 'You\'ve been contacted by ' . $name . '.';
 
@@ -55,8 +57,8 @@ if ( !$error ) {
 
 	}
 
-	echo 'Success';
-	exit(0);
+	// echo 'Success';
+	// exit(0);
 
 }
 
