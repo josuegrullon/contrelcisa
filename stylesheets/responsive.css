@@ -55,6 +55,16 @@
 
 /* Smaller than standard 992 */
 @media only screen and (max-width: 991px) {
+	.tp-caption.title-slide, .tp-caption.title-slide div{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    text-align: left !important;
+}
+
+.top   {
+	display: none;
+}
 	.flat-iconbox.style3 .height30 {
 		display: none;
 	}
