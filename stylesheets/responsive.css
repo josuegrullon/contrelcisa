@@ -62,6 +62,38 @@
     text-align: left !important;
 }
 
+
+	.none {
+	display: block !important;
+	}
+	
+	.top   {
+		display: none;
+	}
+
+	.top-new {
+		display: block !important;
+		margin-bottom: 20px !important;
+	}
+	.top-new {
+	background-color: #c61d24;
+	color: #ffffff;
+	}
+
+	.top-new > ul.flat-infomation li i {
+	    margin-right: 13px !important;
+	}
+
+	
+	ul.flat-infomation .phone {
+		border-bottom: solid 1px;
+	}
+	ul.flat-infomation li i {
+    	margin-right: 8px !important;
+	}
+
+
+
 .top   {
 	display: none;
 }
